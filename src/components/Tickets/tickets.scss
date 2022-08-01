@@ -1,0 +1,50 @@
+.tickets {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+}
+
+.tickets__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets__strong {
+  display: inline-block;
+  margin-top: 32px;
+  margin-left: 32px;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.tickets__text {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9FA2B4;
+}
+
+.tickets__span {
+  color: #595b66;
+}
+
+.tickets__btn {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3751FF;
+  margin-top: -19px;
+  margin-right: 32px;
+}
+
+.tickets__btn:hover {
+  color: #001183;
+  
+}

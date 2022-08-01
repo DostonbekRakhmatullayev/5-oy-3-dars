@@ -1,0 +1,77 @@
+.trends {
+  display: flex;
+  justify-content:space-between;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.trends__box {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.trends__strong {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.trends__time {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9FA2B4;
+}
+
+.trends___week {
+  position: relative;
+  display: flex;
+  margin-top: 64px;
+  margin-right: 32px;
+}
+
+.btn__today, .btn__yesterday {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #9FA2B4;
+}
+
+.btn__today::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 2px;
+  right: 162px;
+  top: 9px;
+  background-color: #a6ace9;
+}
+
+.btn__yesterday {
+  margin-left: 56px;
+}
+
+.btn__yesterday::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 2px;
+  right: 70px;
+  top: 9px;
+  background-color: #a6ace9;
+}
+
+.btn__today:hover,.btn__yesterday:hover {
+  color: #36438d;
+}
+
+.trends__beg {
+  display: flex;
+}

@@ -1,0 +1,38 @@
+.list--item {
+  margin-top: 58px;
+  width: 258px;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: #FFFFFF;
+border: 1px solid #DFE0EB;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+.list--item:hover {
+border: 1px solid #3751FF;
+}
+
+.list--item__strong {
+  font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+color: #9FA2B4;
+}
+
+.list--item__strong:hover {
+  color: #3751FF;
+}
+
+.list--item__numbers {
+  font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #252733;
+}
+
+.list--item__numbers:hover {
+  color: #3751FF;
+}
+

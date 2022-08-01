@@ -1,0 +1,68 @@
+.tasks {
+  width:100%;
+  margin-left: 30px;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  border-radius: 8px;
+  
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  &__title {
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #252733;
+  }
+  
+  &__text{
+    margin-top: 8px;
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9FA2B4;
+  }
+  
+  &__btn {
+    margin-right: 32px; 
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3751FF;
+  }
+  
+  &__creat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #DFE0EB; 
+  }
+  
+  &__strong {
+    display: inline-block;
+    margin-left: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C5C7CD;
+    &:hover {
+    color: #898c94;
+    }
+  }
+
+  &__img {
+    margin-right: 32px;
+  }
+}

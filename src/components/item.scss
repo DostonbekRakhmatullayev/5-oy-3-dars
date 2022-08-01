@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 29px;
+  border-left: 2px solid #363740;
+}
+
+.item:hover {
+  opacity: 1;
+  border-left: 2px solid #DDE2FF;
+  background-color: #3f3f47;
+}
+
+.item__strong {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #A4A6B3;
+}

@@ -1,0 +1,39 @@
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #DFE0EB;
+  &__input {
+    margin-left: 32px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+  
+  &__btn {
+    padding: 5px 12px;
+    background: #FEC400;
+    border-radius: 8px;
+    margin-right: 32px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    color: #9FA2B4;
+  }
+  
+  &__text {
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #252733;
+  }
+  
+}
+

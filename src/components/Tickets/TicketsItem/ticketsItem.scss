@@ -1,0 +1,23 @@
+.ticketsItem {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.ticketsItem__text {
+  margin-left: 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252733;
+}
+
+.ticketsItem__raqam {
+  margin-right: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9FA2B4;
+}
